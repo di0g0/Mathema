@@ -10,8 +10,8 @@
 
 #import "AppDelegate.h"
 #import "GameConfig.h"
-#import "HelloWorldLayer.h"
 #import "RootViewController.h"
+#import "MainMenuScene.h"
 
 @implementation AppDelegate
 
@@ -62,17 +62,22 @@
 	//	2. depth format of 0 bit. Use 16 or 24 bit for 3d effects, like CCPageTurnTransition
 	//
 	//
+    
+    [[GameConfig sharedGame] getUserPreferences];
+
 	EAGLView *glView = [EAGLView viewWithFrame:[window bounds]
 								   pixelFormat:kEAGLColorFormatRGB565	// kEAGLColorFormatRGBA8
 								   depthFormat:0						// GL_DEPTH_COMPONENT16_OES
 						];
 	
 	// attach the openglView to the director
+    [glView setMultipleTouchEnabled:YES];
+
 	[director setOpenGLView:glView];
 	
 //	// Enables High Res mode (Retina Display) on iPhone 4 and maintains low res on all other devices
-//	if( ! [director enableRetinaDisplay:YES] )
-//		CCLOG(@"Retina Display Not supported");
+	if( ! [director enableRetinaDisplay:YES] )
+		CCLOG(@"Retina Display Not supported");
 	
 	//
 	// VERY IMPORTANT:
@@ -111,7 +116,7 @@
 	[self removeStartupFlicker];
 	
 	// Run the intro Scene
-	[[CCDirector sharedDirector] runWithScene: [HelloWorldLayer scene]];
+	[[CCDirector sharedDirector] runWithScene: [MainMenuScene scene]];
 }
 
 

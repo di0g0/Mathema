@@ -43,3 +43,26 @@
 
 #endif // __GAME_CONFIG_H
 
+//User Defaults keys
+#define kGameConfigHasDefaults @"hasDefauls" //check if the game was played before
+#define kGameConfigMusicEnabled @"musicEnabled"
+#define kGameConfigMusicSoundsEnabled @"soundsEnabled"
+
+
+#import <Foundation/Foundation.h>
+//#import "GameLayer.h"
+@interface GameConfig : NSObject
+
++ (GameConfig*)sharedGame;
+
+- (void)setMusicEnabled:(BOOL)music;
+- (void)setSoundsEnabled:(BOOL)sound;
+-(void)getUserPreferences;
+
+
+@property (nonatomic,assign) BOOL musicEnabled;
+@property (nonatomic,assign) BOOL soundsEnabled;
+@property (nonatomic,assign) BOOL paused;
+//@property (nonatomic,retain) GameLayer *currentGameLayer;
+
+@end
