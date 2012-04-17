@@ -14,7 +14,7 @@
 - (id)init {
     self = [super init];
     if (self) {
-        valueLabel = [CCLabelTTF labelWithString:@"  " fontName:@"Helvetica" fontSize:18];
+        valueLabel = [CCLabelTTF labelWithString:@"  " fontName:@"Helvetica" fontSize:25];
         [self addChild: valueLabel];
     }
     return self;

@@ -11,8 +11,13 @@
 
 @interface BattleScene : CCLayer{
     NSArray *answers;
+    NSMutableArray *numbers;
+    
+    
     CircleAnswers *selectedAnswer;
     BOOL moving;
+    CCSprite *alvo1;
+    
 }
 
 +(id)scene;

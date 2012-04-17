@@ -28,8 +28,6 @@
 		5305D1DC153C8C4C008C0E5A /* corre.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5305D1D6153C8C4C008C0E5A /* corre.plist */; };
 		5305D1DD153C8C4C008C0E5A /* scroller.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5305D1D7153C8C4C008C0E5A /* scroller.tmx */; };
 		5305D1EA153C8DAC008C0E5A /* GameObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5305D1E9153C8DAC008C0E5A /* GameObject.mm */; };
-		5319D197153CAD9C00E41400 /* Circulo_azul-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5319D195153CAD9C00E41400 /* Circulo_azul-hd.png */; };
-		5319D198153CAD9C00E41400 /* Circulo_azul.png in Resources */ = {isa = PBXBuildFile; fileRef = 5319D196153CAD9C00E41400 /* Circulo_azul.png */; };
 		5319D19C153CAE2700E41400 /* BattleScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5319D19B153CAE2700E41400 /* BattleScene.mm */; };
 		5319D1A1153CAF1700E41400 /* CircleAnswers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5319D1A0153CAF1700E41400 /* CircleAnswers.m */; };
 		53DBCF9C153C8EAF00A13216 /* Player.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53DBCF9B153C8EAF00A13216 /* Player.mm */; };
@@ -196,6 +194,11 @@
 		D9CB9F791527679900D6233E /* InterfaceLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9CB9F741527679800D6233E /* InterfaceLayer.mm */; };
 		D9CB9F7A1527679900D6233E /* SneakyButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9CB9F761527679800D6233E /* SneakyButton.mm */; };
 		D9CB9F7B1527679900D6233E /* SneakyButtonSkinnedBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9CB9F781527679800D6233E /* SneakyButtonSkinnedBase.mm */; };
+		D9D0D50A153CFD1B00D045D3 /* Circle-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D0D508153CFD1B00D045D3 /* Circle-hd.png */; };
+		D9D0D50B153CFD1B00D045D3 /* Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D0D509153CFD1B00D045D3 /* Circle.png */; };
+		D9D0D50F153D079400D045D3 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D0D50E153D079300D045D3 /* Util.m */; };
+		D9D0D512153D0F0500D045D3 /* bullseye-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D0D510153D0F0500D045D3 /* bullseye-hd.png */; };
+		D9D0D513153D0F0500D045D3 /* bullseye.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D0D511153D0F0500D045D3 /* bullseye.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -229,8 +232,6 @@
 		5305D1E5153C8C78008C0E5A /* Tema2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tema2.m4a; path = Resources/Sounds/Tema2.m4a; sourceTree = "<group>"; };
 		5305D1E8153C8DAC008C0E5A /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
 		5305D1E9153C8DAC008C0E5A /* GameObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameObject.mm; sourceTree = "<group>"; };
-		5319D195153CAD9C00E41400 /* Circulo_azul-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Circulo_azul-hd.png"; path = "Resources/Circulo_azul-hd.png"; sourceTree = "<group>"; };
-		5319D196153CAD9C00E41400 /* Circulo_azul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Circulo_azul.png; path = Resources/Circulo_azul.png; sourceTree = "<group>"; };
 		5319D19A153CAE2700E41400 /* BattleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleScene.h; sourceTree = "<group>"; };
 		5319D19B153CAE2700E41400 /* BattleScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BattleScene.mm; sourceTree = "<group>"; };
 		5319D19F153CAF1700E41400 /* CircleAnswers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleAnswers.h; sourceTree = "<group>"; };
@@ -568,6 +569,12 @@
 		D9CB9F761527679800D6233E /* SneakyButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SneakyButton.mm; sourceTree = "<group>"; };
 		D9CB9F771527679800D6233E /* SneakyButtonSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyButtonSkinnedBase.h; sourceTree = "<group>"; };
 		D9CB9F781527679800D6233E /* SneakyButtonSkinnedBase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SneakyButtonSkinnedBase.mm; sourceTree = "<group>"; };
+		D9D0D508153CFD1B00D045D3 /* Circle-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Circle-hd.png"; path = "Resources/Circle-hd.png"; sourceTree = "<group>"; };
+		D9D0D509153CFD1B00D045D3 /* Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Circle.png; path = Resources/Circle.png; sourceTree = "<group>"; };
+		D9D0D50D153D079300D045D3 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		D9D0D50E153D079300D045D3 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		D9D0D510153D0F0500D045D3 /* bullseye-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bullseye-hd.png"; path = "Resources/bullseye-hd.png"; sourceTree = "<group>"; };
+		D9D0D511153D0F0500D045D3 /* bullseye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullseye.png; path = Resources/bullseye.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -632,8 +639,10 @@
 		5305D18A153C7CEF008C0E5A /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				5319D195153CAD9C00E41400 /* Circulo_azul-hd.png */,
-				5319D196153CAD9C00E41400 /* Circulo_azul.png */,
+				D9D0D508153CFD1B00D045D3 /* Circle-hd.png */,
+				D9D0D509153CFD1B00D045D3 /* Circle.png */,
+				D9D0D510153D0F0500D045D3 /* bullseye-hd.png */,
+				D9D0D511153D0F0500D045D3 /* bullseye.png */,
 				5305D1D3153C8C4C008C0E5A /* AnimBear.plist */,
 				5305D1D4153C8C4C008C0E5A /* AnimBear.png */,
 				5305D1D5153C8C4C008C0E5A /* corre.jpg */,
@@ -687,6 +696,8 @@
 				D9CB9F591527661D00D6233E /* GameConfig.h */,
 				D9CB9F711527673E00D6233E /* GameConfig.mm */,
 				5305D1A0153C830E008C0E5A /* Constants.h */,
+				D9D0D50D153D079300D045D3 /* Util.h */,
+				D9D0D50E153D079300D045D3 /* Util.m */,
 			);
 			name = Config;
 			sourceTree = "<group>";
@@ -1301,8 +1312,10 @@
 				5305D1DC153C8C4C008C0E5A /* corre.plist in Resources */,
 				5305D1DD153C8C4C008C0E5A /* scroller.tmx in Resources */,
 				53DBCFA2153C902E00A13216 /* Vader1.gif in Resources */,
-				5319D197153CAD9C00E41400 /* Circulo_azul-hd.png in Resources */,
-				5319D198153CAD9C00E41400 /* Circulo_azul.png in Resources */,
+				D9D0D50A153CFD1B00D045D3 /* Circle-hd.png in Resources */,
+				D9D0D50B153CFD1B00D045D3 /* Circle.png in Resources */,
+				D9D0D512153D0F0500D045D3 /* bullseye-hd.png in Resources */,
+				D9D0D513153D0F0500D045D3 /* bullseye.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1461,6 +1474,7 @@
 				53DBCFA0153C8F5000A13216 /* ContactListener.mm in Sources */,
 				5319D19C153CAE2700E41400 /* BattleScene.mm in Sources */,
 				5319D1A1153CAF1700E41400 /* CircleAnswers.m in Sources */,
+				D9D0D50F153D079400D045D3 /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
