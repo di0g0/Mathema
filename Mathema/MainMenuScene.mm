@@ -11,6 +11,7 @@
 #import "GameConfig.h"
 #import "ConfigLayer.h"
 #import "GameLayer.h"
+#import "BattleScene.h"
 
 @interface MainMenuScene()
 
@@ -75,8 +76,7 @@
 }
 
 -(void)configTapped:(id)sender{
-    NSLog(@"Vai para tela de config");
-    CCScene *scene = [ConfigLayer scene];
+    CCScene *scene = [BattleScene scene];
     [[CCDirector sharedDirector] replaceScene:[CCTransitionFadeTR transitionWithDuration:0.5 scene:scene]];
     
 }

@@ -28,6 +28,10 @@
 		5305D1DC153C8C4C008C0E5A /* corre.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5305D1D6153C8C4C008C0E5A /* corre.plist */; };
 		5305D1DD153C8C4C008C0E5A /* scroller.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5305D1D7153C8C4C008C0E5A /* scroller.tmx */; };
 		5305D1EA153C8DAC008C0E5A /* GameObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5305D1E9153C8DAC008C0E5A /* GameObject.mm */; };
+		5319D197153CAD9C00E41400 /* Circulo_azul-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5319D195153CAD9C00E41400 /* Circulo_azul-hd.png */; };
+		5319D198153CAD9C00E41400 /* Circulo_azul.png in Resources */ = {isa = PBXBuildFile; fileRef = 5319D196153CAD9C00E41400 /* Circulo_azul.png */; };
+		5319D19C153CAE2700E41400 /* BattleScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5319D19B153CAE2700E41400 /* BattleScene.mm */; };
+		5319D1A1153CAF1700E41400 /* CircleAnswers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5319D1A0153CAF1700E41400 /* CircleAnswers.m */; };
 		53DBCF9C153C8EAF00A13216 /* Player.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53DBCF9B153C8EAF00A13216 /* Player.mm */; };
 		53DBCFA0153C8F5000A13216 /* ContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53DBCF9F153C8F5000A13216 /* ContactListener.mm */; };
 		53DBCFA2153C902E00A13216 /* Vader1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 53DBCFA1153C902E00A13216 /* Vader1.gif */; };
@@ -195,8 +199,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5305D15A153C7C1C008C0E5A /* BattleScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleScene.h; sourceTree = "<group>"; };
-		5305D15B153C7C1C008C0E5A /* BattleScene.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BattleScene.mm; sourceTree = "<group>"; };
 		5305D1A0153C830E008C0E5A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		5305D1B5153C8C0D008C0E5A /* bwButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bwButton.png; path = Resources/bwButton.png; sourceTree = "<group>"; };
 		5305D1B6153C8C0D008C0E5A /* bwButton_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bwButton_selected.png; path = Resources/bwButton_selected.png; sourceTree = "<group>"; };
@@ -227,6 +229,12 @@
 		5305D1E5153C8C78008C0E5A /* Tema2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tema2.m4a; path = Resources/Sounds/Tema2.m4a; sourceTree = "<group>"; };
 		5305D1E8153C8DAC008C0E5A /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
 		5305D1E9153C8DAC008C0E5A /* GameObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameObject.mm; sourceTree = "<group>"; };
+		5319D195153CAD9C00E41400 /* Circulo_azul-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Circulo_azul-hd.png"; path = "Resources/Circulo_azul-hd.png"; sourceTree = "<group>"; };
+		5319D196153CAD9C00E41400 /* Circulo_azul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Circulo_azul.png; path = Resources/Circulo_azul.png; sourceTree = "<group>"; };
+		5319D19A153CAE2700E41400 /* BattleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleScene.h; sourceTree = "<group>"; };
+		5319D19B153CAE2700E41400 /* BattleScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BattleScene.mm; sourceTree = "<group>"; };
+		5319D19F153CAF1700E41400 /* CircleAnswers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleAnswers.h; sourceTree = "<group>"; };
+		5319D1A0153CAF1700E41400 /* CircleAnswers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleAnswers.m; sourceTree = "<group>"; };
 		53DBCF9A153C8EAF00A13216 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		53DBCF9B153C8EAF00A13216 /* Player.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Player.mm; sourceTree = "<group>"; };
 		53DBCF9E153C8F5000A13216 /* ContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListener.h; sourceTree = "<group>"; };
@@ -624,6 +632,8 @@
 		5305D18A153C7CEF008C0E5A /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				5319D195153CAD9C00E41400 /* Circulo_azul-hd.png */,
+				5319D196153CAD9C00E41400 /* Circulo_azul.png */,
 				5305D1D3153C8C4C008C0E5A /* AnimBear.plist */,
 				5305D1D4153C8C4C008C0E5A /* AnimBear.png */,
 				5305D1D5153C8C4C008C0E5A /* corre.jpg */,
@@ -657,8 +667,10 @@
 				D9CB9F691527670400D6233E /* GameScene.mm */,
 				D9CB9F6A1527670500D6233E /* PauseLayer.h */,
 				D9CB9F6B1527670500D6233E /* PauseLayer.mm */,
-				5305D15A153C7C1C008C0E5A /* BattleScene.h */,
-				5305D15B153C7C1C008C0E5A /* BattleScene.mm */,
+				5319D19A153CAE2700E41400 /* BattleScene.h */,
+				5319D19B153CAE2700E41400 /* BattleScene.mm */,
+				5319D19F153CAF1700E41400 /* CircleAnswers.h */,
+				5319D1A0153CAF1700E41400 /* CircleAnswers.m */,
 				5305D1E8153C8DAC008C0E5A /* GameObject.h */,
 				5305D1E9153C8DAC008C0E5A /* GameObject.mm */,
 				53DBCF9A153C8EAF00A13216 /* Player.h */,
@@ -1289,6 +1301,8 @@
 				5305D1DC153C8C4C008C0E5A /* corre.plist in Resources */,
 				5305D1DD153C8C4C008C0E5A /* scroller.tmx in Resources */,
 				53DBCFA2153C902E00A13216 /* Vader1.gif in Resources */,
+				5319D197153CAD9C00E41400 /* Circulo_azul-hd.png in Resources */,
+				5319D198153CAD9C00E41400 /* Circulo_azul.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1445,6 +1459,8 @@
 				5305D1EA153C8DAC008C0E5A /* GameObject.mm in Sources */,
 				53DBCF9C153C8EAF00A13216 /* Player.mm in Sources */,
 				53DBCFA0153C8F5000A13216 /* ContactListener.mm in Sources */,
+				5319D19C153CAE2700E41400 /* BattleScene.mm in Sources */,
+				5319D1A1153CAF1700E41400 /* CircleAnswers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

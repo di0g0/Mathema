@@ -1,5 +1,5 @@
 //
-//  BattleScene.h
+//  CircleAnswers.h
 //  Mathema
 //
 //  Created by Diogo Henrique da Silva Costa on 16/04/12.
@@ -7,14 +7,11 @@
 //
 
 #import "cocos2d.h"
-#import "CircleAnswers.h"
 
-@interface BattleScene : CCLayer{
-    NSArray *answers;
-    CircleAnswers *selectedAnswer;
-    BOOL moving;
+@interface CircleAnswers : CCSprite{
+    CCLabelTTF *valueLabel;
 }
 
-+(id)scene;
+@property (nonatomic, assign) double value;
 
 @end
