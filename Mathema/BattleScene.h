@@ -8,6 +8,7 @@
 
 #import "cocos2d.h"
 #import "CircleAnswers.h"
+#import "MathemaEngine.h"
 
 @interface BattleScene : CCLayer{
     NSArray *answers;
@@ -17,6 +18,9 @@
     CircleAnswers *selectedAnswer;
     BOOL moving;
     CCSprite *alvo1;
+    
+    MathemaEngine *mathEngine;
+    MathExpression *currentCount;
     
 }
 

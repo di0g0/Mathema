@@ -30,6 +30,8 @@
 		5305D1EA153C8DAC008C0E5A /* GameObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5305D1E9153C8DAC008C0E5A /* GameObject.mm */; };
 		5319D19C153CAE2700E41400 /* BattleScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5319D19B153CAE2700E41400 /* BattleScene.mm */; };
 		5319D1A1153CAF1700E41400 /* CircleAnswers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5319D1A0153CAF1700E41400 /* CircleAnswers.m */; };
+		53A8188D153D9272008BAB98 /* MathemaEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A8188C153D9272008BAB98 /* MathemaEngine.m */; };
+		53A81895153DB87B008BAB98 /* MathExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A81894153DB87A008BAB98 /* MathExpression.m */; };
 		53DBCF9C153C8EAF00A13216 /* Player.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53DBCF9B153C8EAF00A13216 /* Player.mm */; };
 		53DBCFA0153C8F5000A13216 /* ContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53DBCF9F153C8F5000A13216 /* ContactListener.mm */; };
 		53DBCFA2153C902E00A13216 /* Vader1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 53DBCFA1153C902E00A13216 /* Vader1.gif */; };
@@ -199,6 +201,7 @@
 		D9D0D50F153D079400D045D3 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D0D50E153D079300D045D3 /* Util.m */; };
 		D9D0D512153D0F0500D045D3 /* bullseye-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D0D510153D0F0500D045D3 /* bullseye-hd.png */; };
 		D9D0D513153D0F0500D045D3 /* bullseye.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D0D511153D0F0500D045D3 /* bullseye.png */; };
+		D9DA808E1546480F002BC64E /* NSArray+ShuffleArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA808D1546480F002BC64E /* NSArray+ShuffleArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -236,6 +239,10 @@
 		5319D19B153CAE2700E41400 /* BattleScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BattleScene.mm; sourceTree = "<group>"; };
 		5319D19F153CAF1700E41400 /* CircleAnswers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleAnswers.h; sourceTree = "<group>"; };
 		5319D1A0153CAF1700E41400 /* CircleAnswers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleAnswers.m; sourceTree = "<group>"; };
+		53A8188B153D9272008BAB98 /* MathemaEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathemaEngine.h; sourceTree = "<group>"; };
+		53A8188C153D9272008BAB98 /* MathemaEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathemaEngine.m; sourceTree = "<group>"; };
+		53A81893153DB87A008BAB98 /* MathExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathExpression.h; sourceTree = "<group>"; };
+		53A81894153DB87A008BAB98 /* MathExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathExpression.m; sourceTree = "<group>"; };
 		53DBCF9A153C8EAF00A13216 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		53DBCF9B153C8EAF00A13216 /* Player.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Player.mm; sourceTree = "<group>"; };
 		53DBCF9E153C8F5000A13216 /* ContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListener.h; sourceTree = "<group>"; };
@@ -575,6 +582,8 @@
 		D9D0D50E153D079300D045D3 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		D9D0D510153D0F0500D045D3 /* bullseye-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bullseye-hd.png"; path = "Resources/bullseye-hd.png"; sourceTree = "<group>"; };
 		D9D0D511153D0F0500D045D3 /* bullseye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullseye.png; path = Resources/bullseye.png; sourceTree = "<group>"; };
+		D9DA808C1546480F002BC64E /* NSArray+ShuffleArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ShuffleArray.h"; sourceTree = "<group>"; };
+		D9DA808D1546480F002BC64E /* NSArray+ShuffleArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ShuffleArray.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -702,6 +711,19 @@
 			name = Config;
 			sourceTree = "<group>";
 		};
+		53A8188F153D9279008BAB98 /* MathEngine */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA808C1546480F002BC64E /* NSArray+ShuffleArray.h */,
+				D9DA808D1546480F002BC64E /* NSArray+ShuffleArray.m */,
+				53A8188B153D9272008BAB98 /* MathemaEngine.h */,
+				53A8188C153D9272008BAB98 /* MathemaEngine.m */,
+				53A81893153DB87A008BAB98 /* MathExpression.h */,
+				53A81894153DB87A008BAB98 /* MathExpression.m */,
+			);
+			name = MathEngine;
+			sourceTree = "<group>";
+		};
 		D9CB9D661527661800D6233E = {
 			isa = PBXGroup;
 			children = (
@@ -743,6 +765,7 @@
 				D9CB9F511527661D00D6233E /* RootViewController.mm */,
 				D9CB9F561527661D00D6233E /* GLES-Render.h */,
 				D9CB9F571527661D00D6233E /* GLES-Render.mm */,
+				53A8188F153D9279008BAB98 /* MathEngine */,
 				5305D1E7153C8D71008C0E5A /* Config */,
 				5305D156153C7B48008C0E5A /* Menu */,
 				5305D1E6153C8D00008C0E5A /* Game */,
@@ -1475,6 +1498,9 @@
 				5319D19C153CAE2700E41400 /* BattleScene.mm in Sources */,
 				5319D1A1153CAF1700E41400 /* CircleAnswers.m in Sources */,
 				D9D0D50F153D079400D045D3 /* Util.m in Sources */,
+				53A8188D153D9272008BAB98 /* MathemaEngine.m in Sources */,
+				53A81895153DB87B008BAB98 /* MathExpression.m in Sources */,
+				D9DA808E1546480F002BC64E /* NSArray+ShuffleArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1530,6 +1556,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"Mathema/libs\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1547,6 +1574,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"Mathema/libs\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

@@ -49,10 +49,46 @@
     return a;
 }
 - (void)dealloc {
+    [mathEngine release];
+    mathEngine = nil;
     [answers release];
     answers = nil;
     [super dealloc];
 }
+
+-(void)drawCount:(MathExpression *)count{
+
+    int i = 0;
+    for (NSNumber *n in count.numeros) {
+        NSString *string = (i == count.indexIncognita)?@"X":[NSString stringWithFormat:@"%i",[n intValue]];
+        CCLabelTTF *valueLabel = [CCLabelTTF labelWithString:string fontName:@"Helvetica" fontSize:130];
+
+        if (n != [count.numeros lastObject]) {
+
+            valueLabel.position = ccp(100 + (i* (valueLabel.contentSize.width + 30)),200);
+            [self addChild:valueLabel z:1];
+            [numbers addObject:valueLabel];     
+
+            MathOpType op = (MathOpType)[[count.operadores objectAtIndex:i] intValue];
+            NSString *opString = (op == MathOpTypeSum) ? @"+" : @"*";
+            CCLabelTTF *opLabel = [CCLabelTTF labelWithString:opString fontName:@"Helvetica" fontSize:130];
+            opLabel.position = ccp(100 + (i* (valueLabel.contentSize.width + 30)),200);
+            [self addChild:opLabel];
+            
+            
+        }else{
+            CCLabelTTF *equalsLabel = [CCLabelTTF labelWithString:@"=" fontName:@"Helvetica" fontSize:130];
+            equalsLabel.position = ccp(100 + (i* (valueLabel.contentSize.width + 30)),200);
+            [self addChild:equalsLabel];
+
+            valueLabel.position = ccp(equalsLabel.position.x + equalsLabel.contentSize.width/2 + 30,200);
+            [self addChild:valueLabel];
+        }
+        i++;
+    }
+    
+}
+
 -(id) init
 {
 	if( (self=[super init])) {
@@ -64,16 +100,10 @@
         alvo1.position = ccp(200,200);
         [self addChild:alvo1 z:1];
         
-        numbers = [[NSMutableArray alloc] init];
-        for (int i = 0; i<3; i++) {
-            NSString *string = (i == 1)?@"_":@"9";
-            CCLabelTTF *valueLabel = [CCLabelTTF labelWithString:string fontName:@"Helvetica" fontSize:130];
-            valueLabel.position = ccp(100 + (i* (valueLabel.contentSize.width + 30)),200);
-            [self addChild:valueLabel z:1];
-            [numbers addObject:valueLabel];            
-        }
-
-        
+        numbers = [[NSMutableArray alloc] init];               
+        mathEngine = [[MathemaEngine alloc] init];
+        currentCount = [mathEngine getCalc];
+//        [self drawCount:currentCount];
 	}
 	return self;
 }
